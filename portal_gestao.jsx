@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-const SCRIPT_URL_KEY = "gestao_script_url";
+const SCRIPT_URL_KEY = "https://script.google.com/macros/s/AKfycbzbrXpijhmya4FtRKn9f5HC0yOtJpmYUreqNzQxMqjyWPv7nTf892ozqoYTwWgBxLRxeA/exec";
 
 const STATUS_COLORS = {
   "ANDAMENTO": { bg: "#E6F1FB", text: "#185FA5", border: "#378ADD" },
