@@ -243,7 +243,7 @@ const STATUS_STYLE = {
 };
 
 const ALL_COLS = [
-  {key:'ID_OCORRENCIA',label:'ID'},
+  {key:'PEDIDO',label:'ID'},
   {key:'SETOR',label:'Setor'},
   {key:'TIPO',label:'Tipo'},
   {key:'ORDEM_SERVICO',label:'OS'},
@@ -265,7 +265,7 @@ const ALL_COLS = [
 let scriptUrl = '';
 let allRows = [];
 let visibleCols = JSON.parse(localStorage.getItem(COL_KEY) || 'null') || 
-  ['ID_OCORRENCIA','DATA_HORA','STATUS','CATEGORIA','ATENDENTE','CLIENTE','OK','SETOR_GESTAO','FABRICANTE_GESTAO'];
+  ['PEDIDO','DATA_HORA','STATUS','CATEGORIA','ATENDENTE','CLIENTE','OK','SETOR_GESTAO','FABRICANTE_GESTAO'];
 let editingRow = null;
 let savingRow = false;
 
